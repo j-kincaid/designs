@@ -1,3 +1,31 @@
-h2, h3 {
-text-align: center;
+body {
+  background-color: seagreen;
+}
+ul {
+  list-style: none;
+}
+#inlinelightblue ul li {
+  display: inline;
+  position: absolute;
+  margin: 50%;
+  border: 2px solid;
+  padding: 200px 90px;
+  background: cornflowerblue;
+  border-radius: 1em 20em 5em;
+}
+#inlineRed ul li {
+  display: inline-block;
+  margin: 1.75em;
+  border: 2px solid;
+  padding: 90px 200px;
+  background: red;
+  border-radius: 5em 25em 1em;
+}
+#Block ul li {
+  display: block;
+  margin-top: 4em;
+  border: 2px solid;
+  padding: 50px 90px;
+  background: darkorange;
+  border-radius: 25em 20em 15em;
 }
